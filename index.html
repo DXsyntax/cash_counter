@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body style="text-align: center">
+
+<h1 id="cream">0</h1>
+
+<button onclick="adding()"
+style="font-size: 50px;">+</button> 
+
+
+<script>
+
+	var total = 0
+
+	function adding() {
+	  total += 30 
+
+	  var display = document.getElementById("cream").innerHTML = "$" + `${total}`;
+	  return display;
+	}
+
+
+</script>
+
+</body>
+</html>
